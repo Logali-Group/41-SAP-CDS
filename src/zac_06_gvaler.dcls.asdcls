@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control - Eliminate restrictions'
+@MappingRole: true
+define role ZAC_06_GVALER {
+    grant select on ZCDS_28_LOGALI;
+                        
+}

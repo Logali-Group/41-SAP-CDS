@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control - Inheritance'
+@MappingRole: true
+define role ZAC_03_GVALER {
+    grant select on zcds_26_logali inherit ZAC_01_GVALER or carrid = 'AA';
+                        
+}

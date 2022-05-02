@@ -1,0 +1,16 @@
+@Metadata.layer: #INDUSTRY
+//1 - Customer
+//2 - Partner
+//3 - Industry
+//4 - Localization
+//5 - Core
+annotate view ZCDS_29_LOGALI with
+{
+  @UI.dataPoint.title: 'MDE Title - Carrid INDUSTRY'
+  @UI.dataPoint.description: 'MDE Description - Carrid INDUSTRY'
+  Carrid;
+  @UI.dataPoint.title: 'MDE Title - Connid  INDUSTRY'
+  @UI.dataPoint.description: 'MDE Description - Connid  INDUSTRY'
+  Connid;
+
+}

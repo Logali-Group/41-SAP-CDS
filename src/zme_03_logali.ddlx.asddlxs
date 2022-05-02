@@ -1,0 +1,12 @@
+@Metadata.layer: #CORE
+annotate view zcds_30_logali with
+  parameters
+    @EndUserText: {
+      label: 'Airline Code',
+      quickInfo: 'Airline'
+    }
+    p_Airline
+{
+  @EndUserText.label: 'Airline Code'
+  Carrid;
+}

@@ -1,0 +1,10 @@
+@Metadata.layer: #PARTNER
+annotate view ZCDS_29_LOGALI with
+{
+  @UI.dataPoint.title: 'MDE Title - Carrid PARTNER'
+  @UI.dataPoint.description: 'MDE Description - Carrid PARTNER'
+  Carrid;
+  @UI.dataPoint.title: 'MDE Title - Connid PARTNER'
+  @UI.dataPoint.description: 'MDE Description - Connid PARTNER'
+  Connid;
+}

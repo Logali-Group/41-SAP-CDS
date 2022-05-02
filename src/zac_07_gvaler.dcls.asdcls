@@ -1,0 +1,8 @@
+@EndUserText.label: 'Access Control - Analisys'
+@MappingRole: true
+define role ZAC_07_GVALER {
+    grant select on zcds_48_logali 
+          where (carrid) = aspect pfcg_auth(Z_CARRID, carrid, actvt='03')
+            and distid = 'MI';
+                        
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control - Inhibiting'
+@MappingRole: true
+define role ZAC_04_GVALER {
+    grant select on ZCDS_28_LOGALI where Carrid is null and Carrid is not null;
+                                    
+}
